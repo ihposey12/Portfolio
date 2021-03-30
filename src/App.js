@@ -28,7 +28,7 @@ class App extends React.Component {
         title: 'About Me'
       },
       contact: {
-        title: 'Connect With Me?'
+        title: 'Contact Me'
       }
     }
   }
@@ -39,7 +39,7 @@ class App extends React.Component {
         <Router>
           <Container className='p-0' fluid={true}>
             <Navbar className='border-bottom' bg='transparent' expand='lg'>
-              <Navbar.Brand>Hunter Posey</Navbar.Brand>
+              <Navbar.Brand className='top-left-name'><u>ISAAC HUNTER POSEY</u></Navbar.Brand>
               <Navbar.Toggle aria-controls='navbar-toggle' />
               <Navbar.Collapse id='navbar-toggle'>
                 <Nav className='ml-auto'>

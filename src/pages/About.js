@@ -4,7 +4,7 @@ import Hero from '../components/Hero'
 
 const About = (props) => {
     return(
-        <div>
+        <div className='about'>
             <Hero title={props.title} />
             <Content>
                 <p>When I was young, computers were my world, my escape. 

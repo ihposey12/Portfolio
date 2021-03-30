@@ -7,10 +7,10 @@ const Footer = () => {
             <Container fluid={true}>
                 <Row className='border-top justify-content-between p-3'>
                     <Col className='p-0' md={3} sm={12}>
-                        Hunter Posey
+                        <p>*Made with <u>ReactJS, Bootstrap, and Express</u></p>
                     </Col>
                     <Col className='p-0 d-flex justify-content-end' md={3}>
-                        This Site Was Made By Hunter Posey
+                        Created By: Hunter Posey
                     </Col>
                 </Row>
             </Container>

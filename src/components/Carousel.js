@@ -2,6 +2,8 @@ import React from 'react'
 import { Container, Row } from 'react-bootstrap'
 import Card from './Card'
 import gitlogo from '../assets/images/gitlogo.png'
+import coding from '../assets/images/coding.png'
+import linkedin from '../assets/images/linkedin.png'
 
 class Carousel extends React.Component {
 
@@ -11,27 +13,27 @@ class Carousel extends React.Component {
             items: [
                 {
                     id: 0,
-                    title: 'AirDok',
-                    subtitle: 'Fly far, stay cheap',
-                    imgSrc: gitlogo,
+                    title: 'LinkedIn',
+                    subtitle: 'Connect with me!',
+                    imgSrc: linkedin,
                     link: 'https://linkedin.com/in/isaac-posey',
-                    selected: 'false'
+                    selected: false
                 },
                 {
                     id: 1,
-                    title: 'Vinylfy',
-                    subtitle: 'Buy and sell your favorite Vinyl!',
-                    imgSrc: '',
+                    title: 'GitHub',
+                    subtitle: 'Checkout my work!',
+                    imgSrc: gitlogo,
                     link: 'https://github.com/ihposey12',
-                    selected: 'false'
+                    selected: false
                 },
                 {
                     id: 2,
-                    title: 'QuoteTake',
-                    subtitle: 'Jot down your favorite quotes!',
-                    imgSrc: '',
-                    link: 'https://linkedin.com/in/isaac-posey',
-                    selected: 'false'
+                    title: 'Medium',
+                    subtitle: 'Read my personal/tech blogs!',
+                    imgSrc: coding,
+                    link: 'https://ihposey.medium.com/',
+                    selected: false
                 }
             ]
         }
