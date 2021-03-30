@@ -23,3 +23,13 @@
     font-size: 16px;
     margin: 0px;
 }
+
+.success-msg {
+    color: #57a773;
+    padding: 10px 15px;
+}
+
+.err-msg {
+    color: #ee6352;
+    padding: 10px 15px;
+}
