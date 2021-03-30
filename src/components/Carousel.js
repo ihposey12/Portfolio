@@ -1,5 +1,7 @@
 import React from 'react'
-
+import { Container, Row } from 'react-bootstrap'
+import Card from './Card'
+import gitlogo from '../assets/images/gitlogo.png'
 
 class Carousel extends React.Component {
 
@@ -11,7 +13,7 @@ class Carousel extends React.Component {
                     id: 0,
                     title: 'AirDok',
                     subtitle: 'Fly far, stay cheap',
-                    imgSrc: '',
+                    imgSrc: gitlogo,
                     link: 'https://linkedin.com/in/isaac-posey',
                     selected: 'false'
                 },
@@ -34,9 +36,33 @@ class Carousel extends React.Component {
             ]
         }
     }
+
+    handleCardClick = (id, card) => {
+        let items = {...this.state.items}
+        items[id].selected = items[id].selected ? false : true
+        items.forEach(item => {
+            if(item.id !== id) {
+                item.selected = false
+            }
+        })
+        this.setState({
+            items
+        })
+    }
+
+    makeItems = (items) => {
+        return items.map(item => {
+            return <Card item={item} onClick={(e => this.handleCardClick(item.id, e))} key={item.id} />
+        })
+    }
+
     render() {
         return(
-            <p>Carousel Works!</p>
+            <Container fluid={true}>
+                <Row className='justify-content-around'>
+                    {this.makeItems(this.state.items)}
+                </Row>
+            </Container>
         )
     }
 }
