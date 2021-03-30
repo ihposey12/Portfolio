@@ -4,6 +4,8 @@ import Card from './Card'
 import gitlogo from '../assets/images/gitlogo.png'
 import coding from '../assets/images/coding.png'
 import linkedin from '../assets/images/linkedin.png'
+import HunterPosey_Resume from '../assets/files/HunterPosey_Resume.pdf'
+import medium from '../assets/images/medium.png'
 
 class Carousel extends React.Component {
 
@@ -31,8 +33,16 @@ class Carousel extends React.Component {
                     id: 2,
                     title: 'Medium',
                     subtitle: 'Read my personal/tech blogs!',
-                    imgSrc: coding,
+                    imgSrc: medium,
                     link: 'https://ihposey.medium.com/',
+                    selected: false
+                },
+                {
+                    id: 3,
+                    title: 'Resume',
+                    subtitle: 'Have a Look!',
+                    imgSrc: coding,
+                    link: HunterPosey_Resume,
                     selected: false
                 }
             ]

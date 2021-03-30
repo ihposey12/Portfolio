@@ -21,7 +21,7 @@ class App extends React.Component {
       ],
       home: {
         title: 'Never Stop Learning',
-        subtitle: 'Do What You Love',
+        subtitle: "'No man's knowledge here can go beyond his experience.' -John Locke",
         text: 'Check Me Out Below!'
       },
       about: {
