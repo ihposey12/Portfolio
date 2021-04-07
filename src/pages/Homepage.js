@@ -7,6 +7,7 @@ const Homepage = (props) => {
         <div>
             <Hero title={props.title} subtitle={props.subtitle} text={props.text} />
             <Carousel />
+            <p style={{fontWeight: 'bold', textAlign: 'center'}}>*Direct Links to Hosted Projects COMING SOON!*</p>
         </div>
     )
 }
