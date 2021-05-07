@@ -3,7 +3,6 @@ import Content from '../components/Content'
 import Hero from '../components/Hero'
 import Form from 'react-bootstrap/Form'
 import Button from 'react-bootstrap/Button'
-// import Axios from 'axios'
 import emailjs from 'emailjs-com'
 
 const Contact = (props) => {
