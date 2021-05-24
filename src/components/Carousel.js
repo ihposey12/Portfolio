@@ -4,7 +4,7 @@ import Card from './Card'
 import gitlogo from '../assets/images/gitlogo.png'
 import coding from '../assets/images/coding.png'
 import linkedin from '../assets/images/linkedin.png'
-import Hunter_Posey_Resume from '../assets/files/Hunter_Posey_Resume (1).pdf'
+import Hunter_Posey_Resume from '../assets/files/Hunter_Posey_Resume.pdf'
 import medium from '../assets/images/medium.png'
 
 class Carousel extends React.Component {
@@ -49,6 +49,7 @@ class Carousel extends React.Component {
         }
     }
 
+//Click card
     handleCardClick = (id) => {
         let items = [...this.state.items]
         items[id].selected = items[id].selected ? false : true
