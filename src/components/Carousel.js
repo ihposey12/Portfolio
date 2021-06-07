@@ -4,7 +4,7 @@ import Card from './Card'
 import gitlogo from '../assets/images/gitlogo.png'
 import coding from '../assets/images/coding.png'
 import linkedin from '../assets/images/linkedin.png'
-import Hunter_Posey_Resume from '../assets/files/Hunter_Posey_Resume.pdf'
+import IsaacPoseyResume from '../assets/files/IsaacPoseyResume.pdf'
 import medium from '../assets/images/medium.png'
 
 class Carousel extends React.Component {
@@ -42,7 +42,7 @@ class Carousel extends React.Component {
                     title: 'Resume',
                     subtitle: 'Have a Look!',
                     imgSrc: coding,
-                    link: Hunter_Posey_Resume,
+                    link: IsaacPoseyResume,
                     selected: false
                 }
             ]

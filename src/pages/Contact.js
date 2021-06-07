@@ -108,6 +108,8 @@ const Contact = (props) => {
                         </Button>
                     </Form>
                 </Content>
+                <br />
+                <p>* Emails go Directly to <b>MY</b> email, where I can reply. *</p>
             </div>
         )
     }
